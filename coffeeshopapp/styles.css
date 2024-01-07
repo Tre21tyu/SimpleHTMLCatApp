@@ -1,22 +1,28 @@
 body {
   /* background-color: burlywood; */
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
 }
 
-h1, h2, p {
+h1, h2 {
   text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .menu {
   width: 80%;
+  max-width: 500px;
   background-color: burlywood;
   margin-left: auto;
   margin-right: auto;
+  padding: 20px;
 }
 
 .item p {
   display: inline-block;
 }
+
+/* The CSS rule for the flavor class already sets the properties you want. Add the dessert class as an additional selector for this CSS rule. */
 
 .flavor, .dessert {
   text-align: left;
@@ -28,4 +34,7 @@ h1, h2, p {
   width: 25%;
 }
 
-
+.established {
+  font-style: italic; 
+  text-align: center;
+}
